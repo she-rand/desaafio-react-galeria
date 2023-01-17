@@ -1,1 +1,43 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+body{
+  color: #ccc;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  
+}
 
+header{
+  background-color: rosybrown;
+  height: 25vh;
+  width: 100vw;
+  text-align: center;
+  color: antiquewhite;
+  
+}
+.header-img{
+  height: 15vh;
+  background-image: url("/public/cerezo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+footer{
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
