@@ -13,9 +13,9 @@ const App = ( ) => {
     <div className='container'>
        <Header titulo={"Galería de Imágenes con React"}/>
        <div className='cards'>
-       <Card titulo={"Galanthus"} url={"../public/snowdrops.jpg"} descripcion={"Es una planta herbácea, natural de Europa y Asia occidental."}/>
-        <Card titulo={"Azucena"} url={"../public/lillium.jpg"} descripcion={"Posee un tallo subterráneo bulboso y otro aéreo herbáceo, provisto de numerosas hojas."}/>
-        <Card titulo={"Tulipán"} url={"../public/tulips.jpg"} descripcion={"La palabra «tulipán» proviene del vocablo turco otomano tülbend que, a su vez, proviene del término persa dulband. "}/>
+       <Card titulo={"Galanthus"} url={"/snowdrops.jpg"} descripcion={"Es una planta herbácea, natural de Europa y Asia occidental."}/>
+        <Card titulo={"Azucena"} url={"/lillium.jpg"} descripcion={"Posee un tallo subterráneo bulboso y otro aéreo herbáceo, provisto de numerosas hojas."}/>
+        <Card titulo={"Tulipán"} url={"/tulips.jpg"} descripcion={"La palabra «tulipán» proviene del vocablo turco otomano tülbend que, a su vez, proviene del término persa dulband. "}/>
 
        </div>
     
