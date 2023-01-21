@@ -1,4 +1,4 @@
-const Footer = ({descripcion:descripcion}) => {
+const Footer = ({descripcion}) => {
     return(
         <>
              <footer>
